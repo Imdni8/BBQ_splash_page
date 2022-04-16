@@ -1,0 +1,88 @@
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #404040;
+}
+
+/* =======
+Typography
+======= */
+
+.bbq-bg {
+    background-image: url(bbq-image.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+    margin-bottom: 3em;
+}
+
+.tab-like {
+    margin: 0;
+    border-top: 4px orange solid;
+    color: #F18119;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .625rem;
+    font-weight: 900;
+    /* border: 1px blue solid; */
+}
+
+.headline, .sub-headline {
+    text-align: center;
+    color: white;
+    /* border: 1px blue solid; */
+}
+
+.headline {
+    font-size: 2.25rem;
+    font-weight: 300;
+    /* margin: 0; */
+    width: 70%;
+}
+
+.sub-headline, .form h3 {
+    font-size: 1.3125rem;
+    color: #F18119;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.form h2 {
+    color: #404040;
+    font-size: 1.3125;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.form h3 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.long-copy, .fine-print {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fine-print {
+    font-size: .625rem;
+}
+
+/* =======
+Layout
+======= */
+
+/* bg image content order */
+
+.tab-like {
+    order: -1;
+}
+
